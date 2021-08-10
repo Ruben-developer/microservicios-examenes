@@ -84,7 +84,7 @@ public class Examen {
 		pregunta.setExamen(this);
 	}
 	
-	public void reomvePregunta(Pregunta pregunta) {
+	public void removePregunta(Pregunta pregunta) {
 		this.preguntas.remove(pregunta);
 		pregunta.setExamen(null);
 	}
