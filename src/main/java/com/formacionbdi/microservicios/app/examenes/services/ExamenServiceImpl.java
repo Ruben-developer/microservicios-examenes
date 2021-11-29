@@ -10,7 +10,7 @@ import com.formacionbdi.microservicios.app.examenes.models.repository.Asignatura
 import com.formacionbdi.microservicios.app.examenes.models.repository.ExamenRepository;
 import com.formacionbdi.microservicios.commons.examenes.models.entity.Asignatura;
 import com.formacionbdi.microservicios.commons.examenes.models.entity.Examen;
-import com.formaciondbi.microservicios.commons.services.CommonServiceImpl;
+import com.formacionbdi.microservicios.commons.services.CommonServiceImpl;
 
 @Service
 public class ExamenServiceImpl extends CommonServiceImpl<Examen, ExamenRepository> implements ExamenService {

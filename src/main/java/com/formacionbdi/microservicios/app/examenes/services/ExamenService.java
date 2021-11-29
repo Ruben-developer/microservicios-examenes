@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.formacionbdi.microservicios.commons.examenes.models.entity.Asignatura;
 import com.formacionbdi.microservicios.commons.examenes.models.entity.Examen;
-import com.formaciondbi.microservicios.commons.services.CommonService;
+import com.formacionbdi.microservicios.commons.services.CommonService;
 
 public interface ExamenService extends CommonService<Examen>{
 	
